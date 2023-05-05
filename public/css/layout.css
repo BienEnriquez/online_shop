@@ -1,0 +1,28 @@
+body{
+    text-align:center;
+ 
+     display:flex;
+
+     flex-direction:column;
+  
+     min-height:100vh;
+}
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+.nav-link{
+   color: white;
+}
+.nav-link:hover{
+    color: rgb(9, 156, 17);
+    transition: 0.5s;
+}
+header{
+  
+    width: 100%;
+    top: 0;
+}
+
+
+

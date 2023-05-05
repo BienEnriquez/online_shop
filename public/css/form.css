@@ -1,0 +1,56 @@
+#sign-up-form{
+    margin: auto;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#sign-up-form p{
+    margin-bottom: 2rem;
+}
+.text-login{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+hr{
+ width: 50%;
+ margin-left: 50%;
+}
+form .loginArea{
+    width: 80%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #dfdfdfdb;
+   
+}
+form .loginArea:hover{
+    background-color: #1987545b;
+}
+form .loginArea:focus{
+    outline: #198754 solid 1px;
+    background-color: #19875437;
+}
+form .submit-btn{
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding: 15px;
+    background:#198754;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+form .submit-btn:hover{
+    background:#13653f;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 991px){
+    #sign-up-form{
+        width: 80%;
+        margin: 2rem auto 2rem auto;
+    }
+}
